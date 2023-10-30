@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Arizonia&family=Dosis:wght@200&family=EB+Garamond:wght@700&family=PT+Serif:wght@700&family=Playfair+Display:wght@500&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+.head{
+    text-align: left;
+    color: #1989ae;
+    /* background-color: rgb(143, 22, 159); */
+    text-shadow: 1px 2px 3px black;
+    font-size: 70px;
+    font-family: 'EB Garamond', serif;
+    position: fixed;
+    height: 100%;
+    padding:20px;
+}
+.web{
+    font-family: 'Dosis', sans-serif;
+    color: #07756e;
+}
+.head img{
+    height: 50px;
+}
+.bgimg{
+    height: 768px;
+    z-index: -1;
+    position: fixed;
+    width: 100%;
+    opacity: 0.5;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.card{
+    display: flex;
+    margin: 30px;
+    /* border: 2px solid red; */
+    border-radius: 20px;
+    padding: 20px;
+    width: 60%;
+    position: relative;
+    float: right;
+    right: 10px;
+    background-color: white;
+    box-shadow: 1px 1px 2px rgb(171, 171, 171);
+}
+.card:hover{
+    transform: scale(1.02);
+    box-shadow: 1px 1px 10px 2px rgb(133, 133, 133);
+}
+.bname{
+    font-family: 'PT Serif', serif;
+    color: rgb(57, 52, 52);
+}
+.aname{
+    font-family: 'Arizonia', cursive;
+    color: rgb(61, 93, 95);
+}
+h3{
+    font-family: 'Dosis', sans-serif;
+    font-weight: 100;
+    color: rgb(97, 97, 97);
+}
