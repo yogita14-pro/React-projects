@@ -18,7 +18,7 @@ function App() {
         <span>BEST
           <br></br>SELLERS</span>
           <br></br>
-          <a href=""><img src={gitpic}></img></a>
+          <a href="https://github.com/yogita14-pro/React-projects/tree/main/bestsellers"><img src={gitpic}></img></a>
           <a href="https://github.com/yogita14-pro/PythonProjects/blob/webscraping/bshtml.py"><img src={pyth}></img></a>
         </h1>
       <img src={picture} className='bgimg'></img>
